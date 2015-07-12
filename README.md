@@ -6,11 +6,8 @@ For example, if the resource `/foo` gives the following JSON result: `{"foo": "b
 
 ## Installation
 
-Add the following dependency to your build definition:
-
-```scala
-libraryDependencies += "org.julienrf" %% "play-jsonp-filter" % "1.3"
-```
+You will need to download the lib from releases until the original repo owner julienrf decides to upgrade to 2.4.x.
+If you can figure out how to pass the codec and the callback parameter name into the filter injection, then he will merge it.
 
 The `1.3` version is compatible with Play 2.4.x.
 
