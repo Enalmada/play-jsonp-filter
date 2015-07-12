@@ -4,7 +4,7 @@ organization := "org.julienrf"
 
 version := "1.3"
 
-crossScalaVersions := Seq("2.10.5", "2.11.6")
+scalaVersion := "2.11.6"
 
 val playVersion = "2.4.2"
 

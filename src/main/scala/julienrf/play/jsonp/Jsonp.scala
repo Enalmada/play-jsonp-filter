@@ -15,7 +15,7 @@ import play.api.libs.concurrent.Execution.Implicits.defaultContext
 class Jsonp extends EssentialFilter {
 
   val DefaultParamName = "callback"
-  implicit val codec = utf_8
+  val codec = utf_8
 
   def apply(action: EssentialAction) = EssentialAction { request =>
     val resultProducer = action(request)
